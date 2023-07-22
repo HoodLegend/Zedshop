@@ -14,7 +14,7 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
    @Query("select c from Category c where c.is_activated = true and c.is_deleted = false")
    List<Category> findAllByActivated();
    @Query("select new com.ecommerce.zedshop.models.dto.CategoryDto(c.categoryId, c.category_name, count(p.category.categoryId)) from Category c inner join Product p on p.category.categoryId = c.categoryId " +
-           " where c.is_activated = true and c.is_deleted = false group by c.categoryId")
+           " where c.is_activated = true and c.is_deleted = false group by c.categoryId, c.category_name")
    List<CategoryDto> getCategoryAndProduct();
 
 }
