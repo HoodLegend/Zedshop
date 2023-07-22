@@ -39,8 +39,8 @@ public class Product {
 
     private Integer quantity;
 
-    @Lob
-    @Column(columnDefinition = "MEDIUMBLOB")
+
+    @Column(columnDefinition = "VARBINARY")
     private String image;
 
     @ManyToOne(

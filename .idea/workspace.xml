@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update application properties.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/repositories/CategoryRepository.java" afterDir="false" />
+    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update to category repository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/models/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690040810426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update to category repository">
+      <created>1690041483988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690041483988</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +167,8 @@
     <MESSAGE value="update application.properties" />
     <MESSAGE value="updates" />
     <MESSAGE value="update application properties." />
-    <option name="LAST_COMMIT_MESSAGE" value="update application properties." />
+    <MESSAGE value="update to category repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to category repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
