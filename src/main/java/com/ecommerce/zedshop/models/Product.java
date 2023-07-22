@@ -40,7 +40,7 @@ public class Product {
     private Integer quantity;
 
 
-    @Column(columnDefinition = "VARBINARY")
+    @Column(columnDefinition = "VARCHAR(1000)")
     private String image;
 
     @ManyToOne(
