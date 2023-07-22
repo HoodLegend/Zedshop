@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update to category repository">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/models/Product.java" afterDir="false" />
+    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update to product models">
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/repositories/CategoryRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690041483988</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update to product models">
+      <created>1690043292509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690043292509</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +176,8 @@
     <MESSAGE value="updates" />
     <MESSAGE value="update application properties." />
     <MESSAGE value="update to category repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to category repository" />
+    <MESSAGE value="update to product models" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to product models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
