@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update to product models">
+    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update to product entity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-by-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-by-category.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690043604915</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update to product entity">
+      <created>1690054973763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690054973763</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +190,8 @@
     <MESSAGE value="update application properties." />
     <MESSAGE value="update to category repository" />
     <MESSAGE value="update to product models" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to product models" />
+    <MESSAGE value="update to product entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to product entity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
