@@ -65,13 +65,13 @@ public class AirtelPay {
         }
     }
 
-    // Request to pay
+    // Request to the customer to authorize the payment
     public static JSONObject pay(String phoneNumber, Double price, String currency, String country, String txn) throws IOException {
         String url = url_prefix + "/merchant/v1/payments/";
 
 //        String slicedphone = phoneNumber.substring(1);
         String transactionId = UUID.randomUUID().toString();
-
+        
         JSONObject requestBody = new JSONObject()
                 .put("reference", "Reference for transactions")
                 .put("transactionId",transactionId)
