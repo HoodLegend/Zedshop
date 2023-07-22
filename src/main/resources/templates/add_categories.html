@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>categories</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<h4 style="text-align:center;">Add Categories</h4>
+
+<div class="container d-flex justify-content-center min-vh-100 align-items-center">
+
+    <form th:method="post"
+          th:action="@{/save-category}">
+        <div class="mb-3">
+            <input type="text" class="form-control" id="category_name" name="category_name" aria-describedby="emailHelp" required placeholder="enter category name">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Category</button>
+    </form>
+</div>
+
+</body>
+</html>
