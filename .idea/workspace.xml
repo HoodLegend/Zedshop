@@ -7,9 +7,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="update to product entity">
+    <list default="true" id="86697cb1-6008-45f5-bd04-38d9526e4506" name="Changes" comment="minor change">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/forgot-password.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/product-in-category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/forgot-password.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-by-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-by-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/CoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/products-by-category.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/products-in-category.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/checkout-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/checkout-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/checkout3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/forgot-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-by-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products-in-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products-in-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/controllers/CoreController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/controllers/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/controllers/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/zedshop/models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/products-by-category.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/products-in-category.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/checkout-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/checkout-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/checkout3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/forgot-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-by-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products-in-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/products-in-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/search-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/search-results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690054973763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="minor change">
+      <created>1690055774140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690055774140</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +229,8 @@
     <MESSAGE value="update to category repository" />
     <MESSAGE value="update to product models" />
     <MESSAGE value="update to product entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to product entity" />
+    <MESSAGE value="minor change" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -200,25 +239,6 @@
           <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
           <option name="timeStamp" value="11" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/CartController.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/CartController.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ecommerce/zedshop/controllers/CartController.java</url>
-          <line>65</line>
-          <properties class="com.ecommerce.zedshop.controllers.CartController" method="addItemToCart">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

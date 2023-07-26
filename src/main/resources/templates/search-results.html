@@ -32,7 +32,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
     <div class="container">
         <img src="/images/shoplogo.png" alt="logo" class="logo img-fluid" />
         <a class="navbar-brand" th:href="@{/}">ZedShop</a>
@@ -56,24 +56,6 @@
                         </a>
                     </li>
                 </ul>
-
-
-                <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="searchModalLabel">Search Products</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <form th:action="@{/search}" class="d-flex" method="get">
-                                    <input class="form-control me-2" type="search" placeholder="Search Products" aria-label="Search">
-                                    <button class="btn btn-outline-dark" type="submit">Search</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
                 <ul class="navbar-nav ms-auto me-2">
@@ -119,7 +101,7 @@
     <div class="container justify-content-center align-items-center">
         <div class="row">
             <div  class=" mx-auto">
-                <form  th:action = "@{/customer-search/0}" method = "get" class="d-flex">
+                <form  th:action = "@{/search/1}" method = "get" class="d-flex">
                     <input class="form-control my-1  " type="search" placeholder="Search" aria-label="Search" style="width: 300px;" name="keyword">
                     <button class="btn btn-outline-success m-1" type="submit">
                         <i class="fa fa-search"></i>
@@ -144,7 +126,7 @@
                     <a th:href="@{/product/product-detail/{productId} (productId=${product.productId})}">
                         <img th:src="*{'data:image/jpeg;base64, '+ {product.image}}" alt="product" style="width: 100px;height: 100px;"/>
                     </a>
-                    <span class="price-new"><strong>K [[*{product.cost_price}]]</strong></span>
+                    <span class="price-new"><strong>ZMW [[*{product.cost_price}]]</strong></span>
                 </div>
 
             </div>

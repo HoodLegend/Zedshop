@@ -28,14 +28,14 @@
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
             crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/css/product-detail.css">
+    <link rel="stylesheet" href="/css/product.css">
 
 </head>
 
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
     <div class="container">
         <img src="/images/shoplogo.png" alt="logo" class="logo img-fluid" />
         <a class="navbar-brand" th:href="@{/}">ZedShop</a>
@@ -80,6 +80,13 @@
 
 
                 <ul class="navbar-nav ms-auto me-2">
+                    <li class="nav-item px-3 d-flex">
+                        <a class="nav-link position-relative" th:href="@{/cart}">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle rounded-pill badge bg-primary badge-pill">[[${session.totalItems == null} ? '0' : ${session.totalItems}]]</span>
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#searchModal">
                             <i class="fa fa-search"></i>
@@ -116,56 +123,27 @@
     </div>
 </nav>
 <!-- End of Navbar -->
-<section>
-    <div class="container my-5">
 
-        <div class="card details-card p-0">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <img th:src="*{'data:image/jpeg;base64, '+ {product.image}}" class="img-fluid details-img" alt="product">
-                </div>
-                <div class="col-md-6 col-sm-12 description-container p-5">
-                    <div class="main-description">
-                        <h3>[[*{product.product_name}]]</h3>
-                        <hr>
-                        <p class="product-price">K [[*{product.cost_price}]]</p>
-
-
-                        <div style="clear:both"></div>
-
-                        <hr>
-
-                        <p class="product-title mt-4 mb-1">Description</p>
-                        <p class="product-description mb-4">
-                            [[*{product.description}]]
-                        </p>
-
-                        <hr>
-
-                    </div>
-
-                    <form class="add-inputs" th:action="@{/add-to-cart}" method="post">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <input type="hidden" th:value="${product.productId}" name="id">
-                                <button type="submit" class="btn btn-success "><i class="fa fa-cart-plus me-2" aria-hidden="true"></i>Add to cart</button>
-                            </div>
-                        </div>
-                    </form>
-
-                    <div class="row">
-                        <div class="col-md-5 mb-3">
-                            <a th:href="@{/buy/{id} (id=${product.productId})}" class="btn btn-success mt-2"><i class="fa fa-cart-plus me-2" aria-hidden="true"></i>Buy</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- End row -->
+<div class="container">
+    <div class="row mt-6">
+        <div class="col-md-6 col-sm-8 mt-5">
+            <img th:src="*{'data:image/jpeg;base64, '+ {product.image}}"  alt="product" class="img-fluid">
         </div>
+        <div class="col-md-6 my-5">
+            <h2>[[*{product.product_name}]]</h2>
+            <h4>K [[*{product.cost_price}]]</h4>
+            <p>[[*{product.description}]]</p>
+            <hr>
+            <form class="add-inputs" th:action="@{/add-to-cart}" method="post">
+                <input type="hidden" th:value="${product.productId}" name="id">
+            <button type="submit" class="btn btn-primary mt-5"><i class="fa fa-shopping-cart me-2"></i>Add to Cart</button>
+            </form>
 
+            <a th:href="@{/buy/{id} (id=${product.productId})}" class="btn btn-success mt-3"><i class="fa fa-cart-plus me-2" aria-hidden="true"></i>Buy now</a>
+
+        </div>
     </div>
-</section>
+</div>
 
 
 <!-- Footer -->

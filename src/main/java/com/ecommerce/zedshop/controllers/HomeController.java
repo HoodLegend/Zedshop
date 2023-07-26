@@ -1,21 +1,17 @@
 package com.ecommerce.zedshop.controllers;
 
 import com.ecommerce.zedshop.models.Cart;
-import com.ecommerce.zedshop.models.Order;
 import com.ecommerce.zedshop.models.Product;
 import com.ecommerce.zedshop.models.User;
 import com.ecommerce.zedshop.models.dto.CategoryDto;
-import com.ecommerce.zedshop.repositories.UserRepository;
 import com.ecommerce.zedshop.services.*;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.security.Principal;
 import java.util.List;
@@ -23,7 +19,7 @@ import java.util.Objects;
 
 @Controller
 @RequiredArgsConstructor
-public class CoreController {
+public class HomeController {
 
     @Autowired
     private final UserService userService;
