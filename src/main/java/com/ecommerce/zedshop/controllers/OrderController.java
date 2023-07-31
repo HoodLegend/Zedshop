@@ -120,7 +120,7 @@ public class OrderController {
         Double totalPrice = cart.getTotalPrices();
         orderService.saveOrder(cart, phoneNumber, currency, country);
 
-        return "redirect:/checkout";
+        return "redirect:/order";
     }
 
     @RequestMapping(value = "/accept-order/{id}", method = {RequestMethod.PUT , RequestMethod.GET})
